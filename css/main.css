@@ -27,14 +27,42 @@ ul{
 .navList a{
     margin-left: 30px;
 }
+.wrapper{
+    margin-top: 40px;
+}
 /* ------------ */
 .blockTasks{
     width: 80%;
     margin: 0 auto;
     border-radius: 20px;
     padding: 10px 1em;
-    background-color: aqua;
+    background-color: rgb(107, 116, 194);
     margin-top: 10px;
     display: flex;
     align-items: center;
+}
+.infoForBlock{
+    margin-left: 20px;
+}
+.openBlock{
+    max-width: 80%;
+    background-color: rgb(107, 116, 194);
+    margin: 10px auto;
+    display: none;
+    padding: 10px 1em;
+}
+.infoForBlock{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+/*------------*/
+.checked{
+    text-decoration: line-through;
+    background-color: grey;
+}
+
+.open{
+    display: block;
 }
