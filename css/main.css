@@ -27,7 +27,7 @@ ul{
 .navList a{
     margin-left: 30px;
 }
-.wrapper{
+.wrapperDablcheck, .wrapperVichitcka{
     margin-top: 40px;
 }
 /* ------------ */
@@ -65,4 +65,12 @@ ul{
 
 .open{
     display: block;
+}
+
+[data-main].showBlock{
+    display: block !important;
+}
+
+[data-main]{
+    display: none;
 }
